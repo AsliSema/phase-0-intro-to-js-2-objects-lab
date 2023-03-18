@@ -22,8 +22,3 @@ function destructivelyDeleteFromEmployeeByKey(object, key){
     delete object[key];
     return object;
 }
-
-updateEmployeeWithKeyAndValue(employee, "streetAddress", "12")
-destructivelyUpdateEmployeeWithKeyAndValue(employee, "streetAddress", "15")
-deleteFromEmployeeByKey(employee, "name")
-destructivelyDeleteFromEmployeeByKey(employee, "name")
